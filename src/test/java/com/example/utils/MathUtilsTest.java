@@ -51,6 +51,27 @@ public class MathUtilsTest {
         assertTrue(MathUtils.esPar(0));
     }
 
+    @Test
+    public void cuadradoPositivo (){
+        assertEquals(16, MathUtils.cuadrado(4));
+    }
+
+    @Test
+    public void cuadradoNegativo (){
+        assertEquals(16, MathUtils.cuadrado(-4));
+    }
+
+    @Test
+    public void cuadradoCero (){
+        assertEquals(0, MathUtils.cuadrado(0));
+    }
+
+    @Test
+    public void cuadradoGrande (){
+        assertEquals(1000000, MathUtils.cuadrado(1000));
+    }
+
+
 
 
 }

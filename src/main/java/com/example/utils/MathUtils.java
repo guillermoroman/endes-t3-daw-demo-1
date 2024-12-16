@@ -11,5 +11,9 @@ public class MathUtils {
         return x % 2  == 0;
     }
 
+    public static int cuadrado (int x){
+        return x * x;
+    }
+
 
 }
